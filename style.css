@@ -11,6 +11,21 @@ body {
     height: 100vh;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.container img {
+    width: 285px;
+    border-radius: 10px;
+}
+
+
 .gallery-container {
     position: relative;
     max-width: 600px;
